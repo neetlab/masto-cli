@@ -1,0 +1,16 @@
+{
+  "name": "masto-cli",
+  "version": "0.0.1",
+  "bin": "./cli.index.js",
+  "repository": "https://github.com/neetbox/masto-cli.git",
+  "author": "Neetshin <n33t5hin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "masto": "2.5.0-rc1",
+    "typescript": "^3.5.2",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "@types/yargs": "^13.0.0"
+  }
+}
