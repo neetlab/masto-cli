@@ -5,6 +5,12 @@
   "repository": "https://github.com/neetbox/masto-cli.git",
   "author": "Neetshin <n33t5hin@gmail.com>",
   "license": "MIT",
+  "files": [
+    "cli",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "dependencies": {
     "masto": "2.5.0-rc1",
     "typescript": "^3.5.2",
