@@ -1,1 +1,1 @@
-# masto-token
+# masto-cli
