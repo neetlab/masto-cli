@@ -1,7 +1,7 @@
 {
   "name": "masto-cli",
   "version": "0.0.1",
-  "bin": "./cli.index.js",
+  "bin": "./cli/index.js",
   "repository": "https://github.com/neetbox/masto-cli.git",
   "author": "Neetshin <n33t5hin@gmail.com>",
   "license": "MIT",
