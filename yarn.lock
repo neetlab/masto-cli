@@ -247,10 +247,10 @@ map-age-cleaner@^0.1.1:
   dependencies:
     p-defer "^1.0.0"
 
-masto@2.5.0-rc1:
-  version "2.5.0-rc1"
-  resolved "https://registry.yarnpkg.com/masto/-/masto-2.5.0-rc1.tgz#96b7111648bb1efb254e2bba32813329138626fb"
-  integrity sha512-+jI1TDPan7RKSrXDY7pzbm7qZIaKqGx64wGwhHhckqW48f9Gk5lRg6V/lkmv/w4wB4s5zwNwMwpXrY/hRVGOfw==
+masto@2.5.0-rc3:
+  version "2.5.0-rc3"
+  resolved "https://registry.yarnpkg.com/masto/-/masto-2.5.0-rc3.tgz#400d7fe6e6c52c239da50ff4cc688296eabf2009"
+  integrity sha512-XNw+T4vgkew/cwOlGG4KgJO5fkICzJIEE0hk5SW7rs+B60kcbWWUTg+tG647N+vABY+zmK3dsahmWxGVZktDnA==
   dependencies:
     "@types/ws" "^6.0.1"
     axios "^0.19.0"
@@ -259,6 +259,7 @@ masto@2.5.0-rc1:
     isomorphic-ws "^4.0.1"
     normalize-url "^4.3.0"
     semver "^6.1.1"
+    simplytyped "^3.2.2"
     ts-optchain "^0.1.7"
     ws "^6.0.1"
 
@@ -419,6 +420,11 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+simplytyped@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/simplytyped/-/simplytyped-3.2.2.tgz#fc71f3ea4cf48a6d499b0b2c895ca1131fa7b160"
+  integrity sha512-4OIUNslBznGmw5mbnY0spvWk38Uqrc6aBTu6tl97eexh/LGeV9kk6B43xSRfw+9FNaB+RrzltbknttDXwKKEJw==
 
 string-width@^3.0.0, string-width@^3.1.0:
   version "3.1.0"

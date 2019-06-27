@@ -12,7 +12,7 @@
     "package.json"
   ],
   "dependencies": {
-    "masto": "2.5.0-rc1",
+    "masto": "2.5.0-rc3",
     "typescript": "^3.5.2",
     "yargs": "^13.2.4"
   },
