@@ -30,14 +30,14 @@ yargs.command(
     const masto = await Masto.login({ uri });
 
     try {
-      const { access_token } = await masto.fetchAccessToken({
-        grant_type: "password",
+      const { accessToken } = await masto.fetchAccessToken({
+        grantType: "password",
         username: email,
         password,
         scope: 'read write push',
       });
 
-      console.log(access_token);
+      console.log(accessToken);
       process.exit(0);
     } catch (error) {
       console.error(error);
